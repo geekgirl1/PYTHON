@@ -1,7 +1,6 @@
 def zodiac_sign(day, month):
      
-    # checks month and date within the valid range
-    # of a specified zodiac
+ 
     if month == 'december':
         astro_sign = 'Sagittarius' if (day < 22) else 'capricorn'
          
