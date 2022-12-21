@@ -10,7 +10,7 @@ driver = webdriver.Chrome('/home/ganya/Downloads/chromedriver')
  
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600)
-target = '"Friend\'s Name"'
+target = 'harshchand'
 string = "Message sent using Python!!!" 
 x_arg = '//span[contains(@title,' + target + ')]'
 group_title = wait.until(EC.presence_of_element_located((
